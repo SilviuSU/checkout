@@ -20,7 +20,7 @@ select
     customers.first_name,
     customers.last_name,
     application_history.application_id,
-    GROUP_CONCAT(application_history.new_status ORDER BY application_history.created_at ASC)
+    GROUP_CONCAT(application_history.new_status ORDER BY application_history.created_at ASC) as status_transitions
 from
     customers
         inner join applications on applications.broker_id = customers.uuid

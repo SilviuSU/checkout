@@ -1,4 +1,4 @@
-# Checkout test app
+# Checkout php test app
 
 ## Running tests:
 
@@ -8,3 +8,6 @@
 
 ``php ./phpDocumentor.phar run -d ./src -t ./documentation``
 
+# SQL test
+
+The SQL files can be found in: https://github.com/SilviuSU/checkout/tree/main/sql
